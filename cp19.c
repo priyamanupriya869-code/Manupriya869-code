@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+int getnumber(){
+ int num;
+ printf("enter a number: ");
+ scanf("%d",&num);
+ return num;
+}
+int main (){
+    int n= getnumber();
+    printf("you enter :%d",n);
+
+}
